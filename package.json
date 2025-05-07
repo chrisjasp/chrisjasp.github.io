@@ -17,6 +17,7 @@
 		"@sveltejs/kit": "2.20.8",
 		"@sveltejs/vite-plugin-svelte": "5.0.3",
 		"bootstrap": "5.3.6",
+		"bootstrap-icons": "^1.12.1",
 		"plyr": "^3.7.8",
 		"sass": "1.78.0",
 		"scrollcue": "^2.0.0",

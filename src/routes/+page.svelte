@@ -2,6 +2,38 @@
     <!--hero section start-->
     <section class="right-slant-shape bg-primary pb-10 pt-4" data-cue="fadeIn">
        <div class="container">
+         <div class="fixed-top">
+            <div class="dropdown position-absolute" style="right:0.5rem;top:0.5rem;">
+               <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button"
+                  aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+                  <i class="bi theme-icon-active lh-1"><i class="bi theme-icon bi-sun-fill"></i></i>
+                  <span class="visually-hidden bs-theme-text">Toggle theme</span>
+               </button>
+               <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bs-theme-text">
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center"
+                        data-bs-theme-value="light" aria-pressed="true">
+                        <i class="bi theme-icon bi-sun-fill"></i>
+                        <span class="ms-2">Light</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                        aria-pressed="false">
+                        <i class="bi theme-icon bi-moon-stars-fill"></i>
+                        <span class="ms-2">Dark</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
+                        aria-pressed="false">
+                        <i class="bi theme-icon bi-circle-half"></i>
+                        <span class="ms-2">Auto</span>
+                     </button>
+                  </li>
+               </ul>
+            </div>
+          </div>
           <div class="row">
              <div class="col-lg-8 offset-lg-2 col-md-12 position-relaive">
                 <div class="text-white-stable text-center position-relaive my-lg-8 my-6" data-cue="zoomIn">
@@ -32,7 +64,7 @@
                       My areas of
                       <span class="text-primary">expertise</span>
                    </h2>
-                   <p class="mb-5">Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis elit interdum. Duis mollis, ligula magna mollis.</p>
+                   <p class="mb-5">I have over <b class="text-primary">25 years</b> of experience ranging from large enterprise product development all the way to systems administration.</p>
                    <!-- <a href="#!" class="btn btn-primary">View More Details</a> -->
                 </div>
              </div>
@@ -41,12 +73,12 @@
                    <div class="col-md-6">
                       <div class="card bg-danger bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="500">
                          <div class="card-body">
-                            <div class="mb-4">
-                               <img src="./assets/images/personal-svg/html5.svg" alt="html" />
-                            </div>
-                            <div class="mb-4">
-                               <h3>HTML & CSS</h3>
-                               <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
+                            <div class="d-flex align-items-center">
+                              <img src="./assets/images/personal-svg/html5.svg" alt="html" />
+                              <h3 class="ms-2 mb-0">HTML & CSS</h3>
+                           </div>
+                            <div class="mt-2">
+                               <p class="mb-0">From simple single file HTML projects to complex application solutions.</p>
                             </div>
 
                             <!-- <a href="#!" class="icon-link icon-link-hover link-danger">
@@ -59,68 +91,94 @@
                             </a> -->
                          </div>
                       </div>
-                      <div class="card bg-warning bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="1000">
-                         <div class="card-body">
-                            <div class="mb-4">
-                               <img src="./assets/images/personal-svg/figma.svg" alt="html" />
-                            </div>
-                            <div class="mb-4">
-                               <h3>Figma UI Design</h3>
-                               <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
-                            </div>
-
-                            <!-- <a href="#!" class="icon-link icon-link-hover link-warning">
-                               Link Text
-                               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                  <path
-                                     fill-rule="evenodd"
-                                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                               </svg>
-                            </a> -->
-                         </div>
-                      </div>
                    </div>
-                   <div class="col-md-6 mt-md-5">
-                      <div class="card bg-info bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="1500">
-                         <div class="card-body">
-                            <div class="mb-4">
-                               <img src="./assets/images/personal-svg/react.svg" alt="html" />
-                            </div>
-                            <div class="mb-4">
-                               <h3>React</h3>
-                               <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
-                            </div>
+                   <div class="col-md-6">
+                     <div class="card bg-warning bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="1000">
+                        <div class="card-body">
+                           <div class="d-flex align-items-center">
+                              <img src="./assets/images/personal-svg/figma.svg" alt="html" />
+                              <h3 class="ms-2 mb-0">Figma UI Design</h3>
+                           </div>
+                           <div class="mt-2">
+                              <p class="mb-0">Creating rich user experiences to connect and engage your users.</p>
+                           </div>
 
-                            <!-- <a href="#!" class="icon-link icon-link-hover link-info">
-                               Link Text
-                               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                  <path
-                                     fill-rule="evenodd"
-                                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                               </svg>
-                            </a> -->
-                         </div>
-                      </div>
-                      <div class="card bg-success bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="2000">
-                         <div class="card-body">
-                            <div class="mb-4">
-                               <img src="./assets/images/personal-svg/nodejs.svg" alt="html" />
-                            </div>
-                            <div class="mb-4">
-                               <h3>Node.js</h3>
-                               <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
-                            </div>
+                           <!-- <a href="#!" class="icon-link icon-link-hover link-warning">
+                              Link Text
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                 <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                              </svg>
+                           </a> -->
+                        </div>
+                     </div>
+                   </div>
+                   <div class="col-md-6">
+                     <div class="card bg-primary-subtle bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="2000">
+                        <div class="card-body">
+                           <div class="d-flex align-items-center">
+                              <img src="./assets/images/personal-svg/dotnet.svg" width="40" height="40" alt="html" />
+                              <h3 class="ms-2 mb-0">MicroSoft</h3>
+                           </div>
+                           <div class="mt-2">
+                              <p class="mb-0">Extensive experience building APIs, applications for the web, and libraries.</p>
+                           </div>
 
-                            <!-- <a href="#!" class="icon-link icon-link-hover link-success">
-                               Link Text
-                               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                  <path
-                                     fill-rule="evenodd"
-                                     d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                               </svg>
-                            </a> -->
-                         </div>
-                      </div>
+                           <!-- <a href="#!" class="icon-link icon-link-hover link-success">
+                              Link Text
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                 <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                              </svg>
+                           </a> -->
+                        </div>
+                     </div>
+                   </div>
+                   <div class="col-md-6">
+                     <div class="card bg-info bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="1500">
+                        <div class="card-body">
+                           <div class="d-flex align-items-center">
+                              <img src="./assets/images/personal-svg/svelte.svg" width="40" height="40" alt="html" />
+                              <h3 class="ms-2 mb-0">Svelte</h3>
+                           </div>
+                           <div class="mt-2">
+                              <p class="mb-0">Building frontend applications and sharable libraries.</p>
+                           </div>
+
+                           <!-- <a href="#!" class="icon-link icon-link-hover link-info">
+                              Link Text
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                 <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                              </svg>
+                           </a> -->
+                        </div>
+                     </div>
+                   </div>
+                   <div class="col-md-6">
+                     <div class="card bg-success bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="2000">
+                        <div class="card-body">
+                           <div class="d-flex align-items-center">
+                              <img src="./assets/images/personal-svg/nodejs.svg" alt="html" />
+                              <h3 class="ms-2 mb-0">Node.js</h3>
+                           </div>
+                           <div class="mt-2">
+                              <p class="mb-0">Build robust backend APIs to power your frontend.</p>
+                           </div>
+
+                           <!-- <a href="#!" class="icon-link icon-link-hover link-success">
+                              Link Text
+                              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                 <path
+                                    fill-rule="evenodd"
+                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                              </svg>
+                           </a> -->
+                        </div>
+                     </div>
                    </div>
                 </div>
              </div>
@@ -139,9 +197,7 @@
                       <div class="text-lg-center mb-5">
                          <small class="text-uppercase ls-md fw-semibold text-body-tertiary">ABOUT ME</small>
                          <h2 class="mt-3">
-                            Hey, I'm Lee. Most folks know me as
-                            <span class="text-primary">leerob</span>
-                            online.
+                            Hey, I'm Chris.
                          </h2>
                       </div>
                    </div>
@@ -149,12 +205,11 @@
                 <div class="row" data-cue="zoomIn">
                    <div class="col-md-6 col-12">
                       <p class="mb-4 mb-md-0S">
-                         I'm currently the VP of Developer Experience at Vercel, where I lead our Developer Relations and Documentation teams. I focus on educating and growing the Vercel and
-                         Next.js communities.
+                         I'm currently a Senior Software Engineer at NetFile. I work on everything from the backend to the frontend.
                       </p>
                    </div>
                    <div class="col-md-6 col-12">
-                      <p class="mb-0">I love building for the web. From something as simple as a single HTML file – all the way to large Next.js applications. The web is incredible.</p>
+                      <p class="mb-0">I love building for the web. From something as simple as a single HTML file – all the way to large SPA applications. The web is incredible.</p>
                    </div>
                    <!-- <div class="text-lg-center mt-5">
                       <a href="#!" class="btn btn-primary">More about me</a>
@@ -166,7 +221,7 @@
              <div class="col-lg-4 col-md-12 col-12" data-cue="zoomIn">
                 <div class="mb-5 mb-lg-0 text-center text-lg-start px-md-5">
                    <h2 class="mb-3">My process of Engagement</h2>
-                   <p class="mb-0">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus. Aenean eu leo quam.</p>
+                   <p class="mb-0">I focus on building meaningful relationships with clients and users throughout their journey.</p>
                 </div>
              </div>
              <div class="col-lg-8">
@@ -188,7 +243,7 @@
                          </div>
 
                          <h3 class="h4">Design</h3>
-                         <p class="mb-0">We design the Idea in Figma and seek approval. We offer 2 free design iterations.</p>
+                         <p class="mb-0">We design the Idea and seek approval.</p>
                       </div>
                    </div>
                    <div class="col-md-6 col-12" data-cue="fadeIn">
