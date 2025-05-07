@@ -8,7 +8,7 @@
                    <span class="fw-medium fs-4">Hi there, my name is</span>
                    <h1 class="text-white-stable display-3 mt-3 mb-3">Chris Jasper</h1>
                    <p class="mb-0 pb-8 px-lg-7 text-opacity-75 lead">
-                      I'm a Senior Software Engineer at NetFile where my team helps developers build a faster web. I'm an advisor and investor in early stage startups.
+                      I'm a Senior Software Engineer at NetFile where my team builds electronic filing systems for political campaign and disclosure
                    </p>
                 </div>
              </div>
@@ -19,75 +19,6 @@
        </div>
     </section>
     <!--hero section end-->
-
-    <!--Portfolio start-->
-    <section class="my-xl-10 py-xl-9 py-10" data-cue="fadeIn">
-       <div class="container">
-          <div class="row">
-             <div class="col-xl-6 offset-xl-3 col-md-12" data-cue="fadeIn">
-                <div class="text-center mb-lg-7 mb-5">
-                   <small class="text-uppercase ls-md fw-semibold text-body-tertiary">Portfolio</small>
-                   <h2 class="mt-5 px-lg-10 px-6">
-                      Handful of items from
-                      <span class="text-primary">my portfolio.</span>
-                   </h2>
-                   <p class="mb-0">
-                      Here are a handful of items from my portfolio over the
-                      <span class="text-dark">last 13 years.</span>
-                   </p>
-                </div>
-             </div>
-          </div>
-          <div class="table-responsive-xl pb-5">
-             <div class="row flex-nowrap">
-                <div class="col-lg-4 col-md-6" data-cue="fadeIn">
-                   <a href="#!">
-                      <div class="card card-lift">
-                         <div class="card-body pb-0">
-                            <div class="mb-6">
-                               <h3 class="h4 mb-4">JAMstack & Headless web development agency</h3>
-                               <span class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Figma</span>
-                               <span class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Bootstrap</span>
-                            </div>
-                            <img src="./assets/images/perosnal-portfolio/personal-portfolio-img-3.jpg" alt="portfolio" class="img-fluid rounded-top shadow-sm" />
-                         </div>
-                      </div>
-                   </a>
-                </div>
-                <div class="col-lg-4 col-md-6" data-cue="fadeIn">
-                   <a href="#!">
-                      <div class="card card-lift">
-                         <div class="card-body pb-0">
-                            <div class="mb-6">
-                               <h3 class="h4 mb-4">Banking and Finance landing page design</h3>
-                               <span class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">UI Design</span>
-                               <span class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Next.js</span>
-                            </div>
-
-                            <img src="./assets/images/perosnal-portfolio/personal-portfolio-img-2.jpg" alt="portfolio" class="img-fluid rounded-top shadow-sm" />
-                         </div>
-                      </div>
-                   </a>
-                </div>
-                <div class="col-lg-4 col-md-6" data-cue="fadeIn">
-                   <a href="#!">
-                      <div class="card card-lift">
-                         <div class="card-body pb-0">
-                            <div class="mb-6">
-                               <h3 class="h4 mb-4">Accounting software web app development</h3>
-                               <span class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">Web Development</span>
-                               <span class="badge bg-light-subtle border border-light-subtle text-light-emphasis rounded-2">React JS</span>
-                            </div>
-                            <img src="./assets/images/perosnal-portfolio/personal-portfolio-img-1.jpg" alt="portfolio" class="img-fluid rounded-top shadow-sm" />
-                         </div>
-                      </div>
-                   </a>
-                </div>
-             </div>
-          </div>
-       </div>
-    </section>
-    <!--Portfolio end-->
 
     <!--My skill start-->
     <section class="my-xl-10 my-5" data-cue="fadeIn">
@@ -102,7 +33,7 @@
                       <span class="text-primary">expertise</span>
                    </h2>
                    <p class="mb-5">Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis elit interdum. Duis mollis, ligula magna mollis.</p>
-                   <a href="#!" class="btn btn-primary">View More Details</a>
+                   <!-- <a href="#!" class="btn btn-primary">View More Details</a> -->
                 </div>
              </div>
              <div class="col-lg-7 offset-lg-1 col-12">
@@ -118,14 +49,14 @@
                                <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
                             </div>
 
-                            <a href="#!" class="icon-link icon-link-hover link-danger">
+                            <!-- <a href="#!" class="icon-link icon-link-hover link-danger">
                                Link Text
                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                   <path
                                      fill-rule="evenodd"
                                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                                </svg>
-                            </a>
+                            </a> -->
                          </div>
                       </div>
                       <div class="card bg-warning bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="1000">
@@ -138,14 +69,14 @@
                                <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
                             </div>
 
-                            <a href="#!" class="icon-link icon-link-hover link-warning">
+                            <!-- <a href="#!" class="icon-link icon-link-hover link-warning">
                                Link Text
                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                   <path
                                      fill-rule="evenodd"
                                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                                </svg>
-                            </a>
+                            </a> -->
                          </div>
                       </div>
                    </div>
@@ -160,14 +91,14 @@
                                <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
                             </div>
 
-                            <a href="#!" class="icon-link icon-link-hover link-info">
+                            <!-- <a href="#!" class="icon-link icon-link-hover link-info">
                                Link Text
                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                   <path
                                      fill-rule="evenodd"
                                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                                </svg>
-                            </a>
+                            </a> -->
                          </div>
                       </div>
                       <div class="card bg-success bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="2000">
@@ -180,14 +111,14 @@
                                <p class="mb-0">Nulla vitae elit libero, a pharetra auguc id elit non mi porta gravida.</p>
                             </div>
 
-                            <a href="#!" class="icon-link icon-link-hover link-success">
+                            <!-- <a href="#!" class="icon-link icon-link-hover link-success">
                                Link Text
                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                   <path
                                      fill-rule="evenodd"
                                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
                                </svg>
-                            </a>
+                            </a> -->
                          </div>
                       </div>
                    </div>
@@ -225,9 +156,9 @@
                    <div class="col-md-6 col-12">
                       <p class="mb-0">I love building for the web. From something as simple as a single HTML file – all the way to large Next.js applications. The web is incredible.</p>
                    </div>
-                   <div class="text-lg-center mt-5">
+                   <!-- <div class="text-lg-center mt-5">
                       <a href="#!" class="btn btn-primary">More about me</a>
-                   </div>
+                   </div> -->
                 </div>
              </div>
           </div>
@@ -287,85 +218,6 @@
     </section>
     <!--About me end-->
 
-    <!--Testimonial start-->
-    <section class="py-lg-9 py-5 bg-primary-blend-gradient text-dark" data-cue="fadeIn">
-       <div class="container">
-          <div class="row align-items-center mb-lg-7 mb-5" data-cue="zoomIn">
-             <div class="col-xl-6 col-lg-5 col-md-12">
-                <div class="mb-4 mb-lg-0 text-center text-lg-start">
-                   <small class="text-uppercase ls-md fw-semibold">TESTIMONIAL</small>
-                   <h2 class="mt-4">
-                      I am proud of
-                      <span class="text-primary">my results</span>
-                   </h2>
-                   <p class="mb-0">I bring solutions to make life easier for our customers.</p>
-                </div>
-             </div>
-             <div class="col-xl-6 col-lg-7 col-md-12">
-                <div class="row gy-4">
-                   <div class="col-md-4">
-                      <div class="text-center text-lg-start">
-                         <h2 class="mb-1">236</h2>
-                         <span>Awards Won</span>
-                      </div>
-                   </div>
-                   <div class="col-md-4">
-                      <div class="text-center text-lg-start">
-                         <h2 class="mb-1">200+</h2>
-                         <span>Completed Projects</span>
-                      </div>
-                   </div>
-                   <div class="col-md-4">
-                      <div class="text-center text-lg-start">
-                         <h2 class="mb-1">10Y</h2>
-                         <span>Customer Satisfaction</span>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-          <div class="row">
-             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
-                <div class="card shadow-sm h-100 border-0">
-                   <div class="card-body">
-                      <p class="mb-4">“Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.”</p>
-                      <h5 class="mb-0">Jitu Chauhan</h5>
-                      <small>Creative Director - Design agency</small>
-                   </div>
-                </div>
-             </div>
-             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
-                <div class="card shadow-sm h-100 border-0">
-                   <div class="card-body">
-                      <p class="mb-4">“Dolorum et ut quod quia laborum quis quam oluptas numquam delectus nihil ultrices diam ut enim doloremque et ipsam.”</p>
-                      <h5 class="mb-0">Anita Parmar</h5>
-                      <small>Sales Specialist</small>
-                   </div>
-                </div>
-             </div>
-             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
-                <div class="card shadow-sm h-100 border-0">
-                   <div class="card-body">
-                      <p class="mb-4">“Suspendisse facilisis leo at sapien finibus rutrum. Vivamus consectetur viverra erat. Nullam pretium mauris quis ultricies ultrices.”</p>
-                      <h5 class="mb-0">Sandeep Chauhan</h5>
-                      <small>Marketing Specialist</small>
-                   </div>
-                </div>
-             </div>
-             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" data-cue="fadeIn">
-                <div class="card shadow-sm h-100 border-0">
-                   <div class="card-body">
-                      <p class="mb-4">“Phasellus dapibus nibh eu libero pharetra, interdum accu msan nunc purus ferm entum sagittis vestibulum nanatibus et magnis.”</p>
-                      <h5 class="mb-0">Manasvi Suthar</h5>
-                      <small>Creative Art Director</small>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </section>
-    <!--Testimonial end-->
-
     <!--Working together start-->
     <section class="my-lg-9 my-5">
        <div class="container">
@@ -380,12 +232,12 @@
                             <form class="needs-validation" novalidate>
                                <div class="mb-3">
                                   <label for="YourNameInput" class="form-label">What’s your name</label>
-                                  <input type="text" class="form-control" id="YourNameInput" placeholder="Name" required="" />
+                                  <input type="text" class="form-control" id="YourNameInput" placeholder="Name" required />
                                   <div class="invalid-feedback">Please enter yourname.</div>
                                </div>
                                <div class="mb-3">
                                   <label for="yourEmailInput" class="form-label">Email Address</label>
-                                  <input type="email" class="form-control" id="yourEmailInput" placeholder="Email" required="" />
+                                  <input type="email" class="form-control" id="yourEmailInput" placeholder="Email" required />
                                   <div class="invalid-feedback">Please enter email.</div>
                                </div>
                                <div class="mb-3">
