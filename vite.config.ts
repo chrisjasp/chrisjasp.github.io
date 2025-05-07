@@ -3,12 +3,5 @@ import { defineConfig } from 'vite';
 import {enhancedImages} from '@sveltejs/enhanced-img'
 
 export default defineConfig({
-	plugins: [enhancedImages(), sveltekit()],
-	server: {
-		fs: {
-		  allow: [
-			'./assets', // Allow serving files from the assets directory
-		  ]
-		}
-	  }
+	plugins: [enhancedImages(), sveltekit()]
 });
