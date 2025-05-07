@@ -47,7 +47,7 @@
           </div>
        </div>
        <div class="position-absolute z-1 w-100 text-center top-25 mt-n8" data-cue="zoomIn">
-          <img src="./assets/images/me.png" alt="avatar" class="rounded-circle shadow-sm border border-white border-4" />
+          <img src={import('../../assets/images/me.png')} alt="avatar" class="rounded-circle shadow-sm border border-white border-4" />
        </div>
     </section>
     <!--hero section end-->
@@ -74,7 +74,7 @@
                       <div class="card bg-danger bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="500">
                          <div class="card-body">
                             <div class="d-flex align-items-center">
-                              <img src="./assets/images/personal-svg/html5.svg" alt="html" />
+                              <img src={import("../../assets/images/personal-svg/html5.svg")} alt="html" />
                               <h3 class="ms-2 mb-0">HTML & CSS</h3>
                            </div>
                             <div class="mt-2">
@@ -96,7 +96,7 @@
                      <div class="card bg-warning bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="1000">
                         <div class="card-body">
                            <div class="d-flex align-items-center">
-                              <img src="./assets/images/personal-svg/figma.svg" alt="html" />
+                              <img src={import("../../assets/images/personal-svg/figma.svg")} alt="html" />
                               <h3 class="ms-2 mb-0">Figma UI Design</h3>
                            </div>
                            <div class="mt-2">
@@ -118,7 +118,7 @@
                      <div class="card bg-primary-subtle bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="2000">
                         <div class="card-body">
                            <div class="d-flex align-items-center">
-                              <img src="./assets/images/personal-svg/dotnet.svg" width="40" height="40" alt="html" />
+                              <img src={import("../../assets/images/personal-svg/dotnet.svg")} width="40" height="40" alt="html" />
                               <h3 class="ms-2 mb-0">MicroSoft</h3>
                            </div>
                            <div class="mt-2">
@@ -140,7 +140,7 @@
                      <div class="card bg-info bg-opacity-10 border-0 mb-5 mb-lg-0" data-cue="fadeIn" data-delay="1500">
                         <div class="card-body">
                            <div class="d-flex align-items-center">
-                              <img src="./assets/images/personal-svg/svelte.svg" width="40" height="40" alt="html" />
+                              <img src={import("../../assets/images/personal-svg/svelte.svg")} width="40" height="40" alt="html" />
                               <h3 class="ms-2 mb-0">Svelte</h3>
                            </div>
                            <div class="mt-2">
@@ -162,7 +162,7 @@
                      <div class="card bg-success bg-opacity-10 border-0 mb-5" data-cue="fadeIn" data-delay="2000">
                         <div class="card-body">
                            <div class="d-flex align-items-center">
-                              <img src="./assets/images/personal-svg/nodejs.svg" alt="html" />
+                              <img src={import("../../assets/images/personal-svg/nodejs.svg")} alt="html" />
                               <h3 class="ms-2 mb-0">Node.js</h3>
                            </div>
                            <div class="mt-2">
@@ -229,7 +229,7 @@
                    <div class="col-md-6 col-12" data-cue="fadeIn">
                       <div class="mb-lg-8 mb-5 text-center text-lg-start px-3 px-lg-0">
                          <div class="mb-3">
-                            <img src="./assets/images/process-icon/LightbulbFilament.svg" alt="bulb" />
+                            <img src={import("../../assets/images/process-icon/LightbulbFilament.svg")} alt="bulb" />
                          </div>
 
                          <h3 class="h4">Ideation</h3>
@@ -239,7 +239,7 @@
                    <div class="col-md-6 col-12" data-cue="fadeIn">
                       <div class="mb-lg-8 mb-5 text-center text-lg-start px-3 px-lg-0">
                          <div class="mb-3">
-                            <img src="./assets/images/process-icon/PencilCircle.svg" alt="bulb" />
+                            <img src={import("../../assets/images/process-icon/PencilCircle.svg")} alt="bulb" />
                          </div>
 
                          <h3 class="h4">Design</h3>
@@ -249,7 +249,7 @@
                    <div class="col-md-6 col-12" data-cue="fadeIn">
                       <div class="mb-lg-8 mb-5 text-center text-lg-start px-3 px-lg-0">
                          <div class="mb-3">
-                            <img src="./assets/images/process-icon/BracketsCurly.svg" alt="bulb" />
+                            <img src={import("../../assets/images/process-icon/BracketsCurly.svg")} alt="bulb" />
                          </div>
 
                          <h3 class="h4">Development</h3>
@@ -259,7 +259,7 @@
                    <div class="col-md-6 col-12" data-cue="fadeIn">
                       <div class="mb-lg-8 mb-5 text-center text-lg-start px-3 px-lg-0">
                          <div class="mb-3">
-                            <img src="./assets/images/process-icon/Rocket.svg" alt="bulb" />
+                            <img src={import("../../assets/images/process-icon/Rocket.svg")} alt="bulb" />
                          </div>
 
                          <h3 class="h4">Delivery</h3>
@@ -308,7 +308,7 @@
                    <div class="col-md-6" data-cue="zoomIn">
                       <div class="mb-7 text-center text-lg-start">
                          <div class="mb-3">
-                            <img src="./assets/images/me.png" alt="avatar" class="avatar avatar-xl rounded-circle" />
+                            <img src={import("../../assets/images/me.png")} alt="avatar" class="avatar avatar-xl rounded-circle" />
                          </div>
 
                          <h3 class="mb-0">Chris Jasper</h3>
